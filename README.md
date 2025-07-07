@@ -1,6 +1,6 @@
-# IHOP Website Selenium C# Test Suite
+# Website Selenium C# Test Suite
 
-This is a comprehensive end-to-end automated test suite for the IHOP website (https://www.ihop.com/en) built using Selenium WebDriver with C# and NUnit framework.
+This is a comprehensive end-to-end automated test suite for the  website  built using Selenium WebDriver with C# and NUnit framework.
 
 ## 🚀 Features
 
@@ -16,7 +16,7 @@ This is a comprehensive end-to-end automated test suite for the IHOP website (ht
 ## 📁 Project Structure
 
 ```
-IhopSeleniumTests/
+SeleniumTests/
 ├── Helpers/
 │   ├── WebDriverHelper.cs          # WebDriver management and utilities
 │   └── AccessibilityHelper.cs      # Accessibility testing utilities
@@ -33,7 +33,7 @@ IhopSeleniumTests/
 │   ├── AccessibilityTests.cs       # Accessibility test cases
 │   └── TestSuiteRunner.cs          # Test suite organization
 ├── appsettings.json                # Configuration settings
-├── IhopSeleniumTests.csproj        # Project file
+├── SeleniumTests.csproj        # Project file
 └── README.md                       # This file
 ```
 
@@ -192,13 +192,13 @@ The test suite follows the Page Object Model pattern:
 
 ### Locator Strategy
 - **Placeholder Locators**: The CSS selectors in this test suite are placeholder examples
-- **Real Implementation**: You'll need to inspect the actual IHOP website and update the locators with real element selectors
+- **Real Implementation**: You'll need to inspect the actual  website and update the locators with real element selectors
 - **Dynamic Content**: Some elements may load dynamically, requiring wait strategies
 
 ### Updating Locators
 To update locators for real website elements:
 
-1. Open the IHOP website in Chrome
+1. Open the  website in Chrome
 2. Right-click on elements and "Inspect"
 3. Copy the appropriate CSS selectors or XPath
 4. Update the locator properties in the Page Object classes
@@ -298,4 +298,4 @@ dotnet test --watch
 
 ---
 
-**Note**: This test suite contains placeholder locators and will need to be updated with actual element selectors from the IHOP website for full functionality. The framework and structure are production-ready and follow industry best practices.
+**Note**: This test suite contains placeholder locators and will need to be updated with actual element selectors from the  website for full functionality. The framework and structure are production-ready and follow industry best practices.
